@@ -5,7 +5,7 @@ services:
     image: kamailio-dev-dc:master
     build:
       context: .
-      dockerfile: Dockerfile.kamailio
+      dockerfile: Dockerfile.ubuntu.kamailio54
     volumes:
       - ./kamailio:/etc/kamailio
       - ./db:/db
